@@ -11,3 +11,6 @@ To do:
 *Improve CSS
 *Create setup system
 *Create raper for Android devices.
+
+
+Tips Apreciated:  digibyte: D9ssH7L8gLjkXrrEWJNWpuvdicvYwCkLh5
