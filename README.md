@@ -1,6 +1,8 @@
 # digiRegister
 Cash Register for DigiByte
 
+Working example for tips wallet:  https://digibytega.me/examples/digiRegister/
+
 Done so far:
 *Give simple touch screen input of request amount(USD only so far)
 *Generate bar code for apropriate amount of DGB
