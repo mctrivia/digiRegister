@@ -1,0 +1,48 @@
+#calc {
+	width:	90%;
+	text-align: center;
+}
+#calc_top {
+	width:	97%;
+	height:	90px;
+	border:	2px solid;
+	text-align: center;
+	font-size: 60px;
+	line-height: 90px;
+}
+.first {
+	clear:	left;
+}
+.calc_button {
+	position: relative;
+	float:	left;
+	width:	31%;
+	height:	90px;
+	border:	2px solid;
+	cursor: pointer;
+	text-align: center;
+	line-height: 90px;
+	font-size: 45px;
+
+}
+#pay {
+	display: none;
+}
+.pay_block {
+	width:	300px;
+	text-align: center;
+	font-size: 30px;
+}
+#pay_cancel {
+	position: relative;
+	float:	left;
+	width:	32%;
+	height:	15%;
+	border:	2px solid;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;				
+}
+#pay_qr {
+	margin: 30px;
+}
