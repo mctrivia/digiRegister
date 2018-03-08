@@ -1,27 +1,13 @@
 #calc {
-	width:	80%;
+	width:	90%;
+	text-align: center;
 }
-#calc_top {
+#calc_canvas {
 	width:	97%;
-	height:	15%;
-	border:	2px solid;
-	text-align: center;
-	font-size: 30px;
+	height:	97%;
 }
-.first {
-	clear:	left;
-}
-.calc_button {
-	position: relative;
-	float:	left;
-	width:	32%;
-	height:	15%;
-	border:	2px solid;
-	cursor: pointer;
-	text-align: center;
-	font-size: 30px;
 
-}
+
 #pay {
 	display: none;
 }
