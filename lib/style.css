@@ -7,19 +7,21 @@
 	height:	97%;
 }
 
-
+#wait {
+	display: none;
+}
 #pay {
 	display: none;
 }
 .pay_block {
-	width:	300px;
+	width:	100%;
 	text-align: center;
 	font-size: 30px;
 }
 #pay_cancel {
 	position: relative;
 	float:	left;
-	width:	32%;
+	width:	100%;
 	height:	15%;
 	border:	2px solid;
 	cursor: pointer;
@@ -28,4 +30,16 @@
 }
 #pay_qr {
 	margin: 30px;
+}
+#pay_amount{
+	float: left;
+	width:	260px;	
+}
+#pay_tip{
+	float: left;
+	width:	260px;
+}
+#pay_tip_calc{
+	width: 100%;
+	height: 400px;
 }

@@ -15,12 +15,21 @@
 		<div id="calc">
 			<canvas id="calc_canvas"></canvas>
 		</div>
+		<div id="wait">
+			Please wait while creating transaction.
+		</div>
 		<div id="pay">
-			<div id="pay_local" class="pay_block"></div>
-			<div id="pay_exchange" class="pay_block"></div>
-			<div id="pay_dgb" class="pay_block"></div>
-			<div id="pay_qr"></div>
-			<div id="pay_cancel">Cancel</div>
+			<div id="pay_amount">
+				<div id="pay_local" class="pay_block"></div>
+				<div id="pay_exchange" class="pay_block"></div>
+				<div id="pay_dgb" class="pay_block"></div>
+				<div id="pay_qr"></div>
+				<div id="pay_cancel">Cancel</div>
+			</div>
+			<div id="pay_tip">
+				<h3>Tip:</h3>
+				<canvas id="pay_tip_calc"></canvas>
+			</div>
 		</div>
 	</body>
 </html>	
