@@ -13,6 +13,13 @@
 #pay {
 	display: none;
 }
+#done {
+	display: none;
+	font-size: 40px;
+	cursor:	pointer;
+	width:	100%;
+	height:	100%;
+}
 .pay_block {
 	width:	100%;
 	text-align: center;
