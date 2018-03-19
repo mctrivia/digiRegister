@@ -5,34 +5,34 @@
 		<script src="https://digibytega.me/api/coin_history.js"></script>
 		<script src="https://digibytega.me/api/fiat_rates.js"></script>
 		<script src="config.js"></script>
-		<script src="jquery-3.2.1.min.js"></script>
-		<script src="digibyte.js"></script>
-		<script src="qrcode.min.js"></script>
+		<script src="min.js"></script>
 		<script src="DGBcalc.js"></script>
 		<script src="main.js"></script>
 	</head>
 	<body>
-		<div id="calc">
-			<canvas id="calc_canvas"></canvas>
-		</div>
-		<div id="wait">
-			Please wait while creating transaction.
-		</div>
-		<div id="pay">
-			<div id="pay_amount">
-				<div id="pay_local" class="pay_block"></div>
-				<div id="pay_exchange" class="pay_block"></div>
-				<div id="pay_dgb" class="pay_block"></div>
-				<div id="pay_qr"></div>
-				<div id="pay_cancel">Cancel</div>
-			</div>
-			<div id="pay_tip">
-				<h3>Tip:</h3>
-				<canvas id="pay_tip_calc"></canvas>
+		<div id="s">
+			<div id="s_title"></div>
+			<div id="s_bill">Reference ID: <input type="text" id="s_ref"></div>
+			<div id="s_tip">Tip Wallet: </div>
+			<div id="s_ammount">
+				<canvas id="s_calc"></canvas>
 			</div>
 		</div>
-		<div id="done">
-			
+		<div id="c">
+			<div id="c_amount" class="c_pane">
+				<div id="c_local" class="c_block"></div>
+				<div id="c_exchange" class="c_block"></div>
+				<div id="c_dgb" class="c_block"></div>
+				<div id="c_qr"></div>
+				<div id="c_cancel">Cancel</div>
+			</div>
+			<div id="c_tip" class="c_pane">
+				<canvas id="c_tip_calc"></canvas>
+			</div>
+		</div>
+		<div id="p">
+			<h1>Payment Received.  Thank You</h1>
+			<h3>Processing Payment: <span id="p_percent"></span>%</h3>
 		</div>
 	</body>
 </html>	

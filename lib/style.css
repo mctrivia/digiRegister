@@ -1,52 +1,100 @@
-#calc {
-	width:	90%;
-	text-align: center;
+/*
+	Staff Page Layout
+*/
+#s {
+	position:	fixed;
+	left:		0px;
+	top:		0px;
+	width:		100%;
+	height:		100%;
 }
-#calc_canvas {
-	width:	97%;
-	height:	97%;
+#s_title {
+	width:		100%;
+	height:		40px;
+	font-size:	35px;
+	text-align:	center;
+}
+#s_bill {
+	width:		100%;
+	height:		22px;
+}
+#s_tip {
+	width:		100%;
+	height:		62px;
+}
+#s_tip select {
+	height:		100%;
+}
+#s_ammount {
+	position:	absolute;
+	width:		100%;
+	bottom:		0px;
+	/*	top set by js	*/
+}
+#s_calc {
+	position:	relative;
+	width:		100%;
+	height:		100%;
 }
 
-#wait {
-	display: none;
+
+
+
+/*
+	Customer Page Layout
+*/
+#c {
+	position:	fixed;
+	left:		0px;
+	top:		0px;
+	width:		100%;
+	height:		100%;
+	display:	none;
 }
-#pay {
-	display: none;
+.c_pane {
+	position:	relative;
+	float:		left;
+	width:		260px;
+	height:		460px;
 }
-#done {
-	display: none;
-	font-size: 40px;
-	cursor:	pointer;
-	width:	100%;
-	height:	100%;
-}
-.pay_block {
-	width:	100%;
+.c_block {
+	width:		260px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 	30px;
 }
-#pay_cancel {
-	position: relative;
-	float:	left;
-	width:	100%;
-	height:	15%;
-	border:	2px solid;
-	cursor: pointer;
+#c_qr {
+	margin: 	30px;
+	width:		200px;
+	text-align:	center;
+}
+#c_cancel {
+	position: 	relative;
+	float:		left;
+	width:		230px;
+	height:		60px;
+	border:		2px solid;
+	cursor: 	pointer;
 	text-align: center;
-	font-size: 30px;				
+	font-size: 	30px;	
+	margin:		15px;
 }
-#pay_qr {
-	margin: 30px;
+#c_tip_calc {
+	width:		100%;
+	height:		100%;
 }
-#pay_amount{
-	float: left;
-	width:	260px;	
-}
-#pay_tip{
-	float: left;
-	width:	260px;
-}
-#pay_tip_calc{
-	width: 100%;
-	height: 400px;
+
+
+
+
+
+
+#p {
+	position:	fixed;
+	left:		0px;
+	top:		0px;
+	width:		100%;
+	height:		100%;
+	text-align:	center;
+	background-color: #AAFFAA;	/* make sure same as colors[1] in js */
+	display:	none;
 }
