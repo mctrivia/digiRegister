@@ -1,0 +1,18 @@
+{
+	"fee":				10000,
+	"currency":			"CAD",
+	"store_wallet":		[
+							"D9ssH7L8gLjkXrrEWJNWpuvdicvYwCkLh5"
+						],
+	"store_name":		"digiRegister Demo",
+	"tip_style":		2,
+	"tip_wallet":		{
+							"mctrivia":			"DRB8aAB25NUfLS6fjHbnLKQuPNXhASWnto",
+							"DGB General Fund":	"DFVsFBiKuaL5HM9NWZgdHTQecLNit6tX5Y",
+							"DGB Marketing Fund":"32io2n8tSPbK7HBNkcYehMyLRY6EJGfeUU",
+							"DGB Dev Bounty Fund":"3CmhvoyjYkhKWYQLjrpwKbEoWtkiW9cWwX"		
+						},
+	"store_id":			1,
+	"store_pkey":		"AAAABBBBCCCCDDDDAAAABBBBCCCCDDDDAAAABBBBCCCCDDDDAAAABBBBCCCCDDDD",	
+	"rate":				"return usd/Math.min(coinRates[0],Math.max(coinRates[168].min,coinRates[6].max*0.85,coinRates[72].avg*0.9));"
+}

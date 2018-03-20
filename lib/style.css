@@ -1,3 +1,8 @@
+.page {
+	display: none;
+}
+
+
 /*
 	Staff Page Layout
 */
@@ -44,7 +49,6 @@
 	Customer Page Layout
 */
 #c {
-	display:	none;
 }
 .c_pane {
 	position:	relative;
@@ -94,5 +98,36 @@
 	height:		100%;
 	text-align:	center;
 	background-color: #AAFFAA;	/* make sure same as colors[1] in js */
-	display:	none;
+}
+
+
+
+
+
+
+/*
+	Registration Page Layout
+*/
+
+#r_tips table td {
+	border:	none;
+}
+#r_tips th {
+	padding-right:	20px;
+}
+.r_rate_p {
+	width:	45px;
+	text-align:	right;
+}
+#l_table {
+	border-collapse: collapse;
+}
+#l_table td {
+	border:	1px solid black;
+}
+#r_table {
+	border-collapse: collapse;
+}
+#r_table td {
+	border:	1px solid black;
 }
