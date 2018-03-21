@@ -5,7 +5,6 @@
 		<script src="https://digibytega.me/api/coin_history.js"></script>
 		<script src="https://digibytega.me/api/fiat_rates.js"></script>
 		<script src="min.js"></script>
-		<script src="DGBcalc.js"></script>
 		<script src="main.js"></script>
 	</head>
 	<body>
@@ -44,16 +43,24 @@
 				<table border="0" id="r_table">
 					<tr><td>Store Name: </td><td><input type="text" id="r_store"></td></tr>
 					<tr><td>Local Currency: </td><td><select id="r_local"></select></td></tr>
-					<tr><td>Store Wallets: </td><td><input type="text" id="r_wallet"><input type="button" id="r_wallet_add" value="ADD"><span id="r_wallets"></span></td></td>
-					<tr><td>Tips: </td><td>Name: <input type="text" id="r_tip_name"> Wallet: <input type="text" id="r_tip_wallet"><input type="button" id="r_tip_add" value="Add"><span id="r_tips"></span></td></td>
+					<tr><td>Store Wallets: </td><td id="r_store_cell"><input type="text" id="r_wallet"><input type="button" id="r_wallet_add" value="ADD"><span id="r_wallets"></span></td></td>
+					<tr><td>Tips: </td><td id="r_tip_cell">Name: <input type="text" id="r_tip_name"> Wallet: <input type="text" id="r_tip_wallet"><input type="button" id="r_tip_add" value="Add"><span id="r_tips"></span></td></td>
+					<tr><td>Tip Style: </td><td>
+						<select id="r_tip_style">
+							<option value="0">No Tips</option>
+							<option value="1">Single Tip</option>
+							<option value="2">Multiple Tip</option>
+						</select>
+					</td></tr>
 					<tr><td>Rate: </td><td>Minimum of:<br>
 						1) <input type="number" id="r_rate_current_p" class="r_rate_p" value="100">% Current Price<br>
 						2) Maximum of:<br>
 						&nbsp;&nbsp;&nbsp;a)	<input type="number" id="r_rate_min_p" class="r_rate_p" value="100">% of minimum value for last <select id="r_rate_min_t" class="r_rate_t"></select><br>
 						&nbsp;&nbsp;&nbsp;b)	<input type="number" id="r_rate_max_p" class="r_rate_p" value="85">% of maximum value for last <select id="r_rate_max_t" class="r_rate_t"></select><br>
 						&nbsp;&nbsp;&nbsp;c)	<input type="number" id="r_rate_ave_p" class="r_rate_p" value="90">% of average value for last <select id="r_rate_ave_t" class="r_rate_t"></select>
-					<tr><td>Password: </td><td><input type="password" id="r_pwd"></td></td>
-					<tr><td></td><td><input type="button" id="r_login" value="Register"></td></td>
+					<tr><td>Password: </td><td><input type="password" id="r_pwd" class="r_pwd">*No restrictions but best passwords are multiple random words</td></td>
+					<tr><td>Password Repeat: </td><td><input type="password" id="r_pwd2" class="r_pwd"><span id="r_pwd_match"></span></td></td>
+					<tr><td></td><td><input type="button" id="r_register" value="Register"></td></td>
 				</table><hr>
 		</div>
 	</body>
